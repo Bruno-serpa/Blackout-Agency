@@ -88,6 +88,7 @@ switch(state){
 	break;
 		
 	case "run":
+		// Fazer caso ele corra
 			
 	break;
 		
