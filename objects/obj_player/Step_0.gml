@@ -47,11 +47,11 @@ if(global.dialogo == false){
 		case "idle":
 			// Direita
 			if(Ultimo_state == 0){
-				sprite_index = spr_player_idle_direita;
+				sprite_index = spr_alice_idle_direita;
 			}
 			// Esquerda
 			if(Ultimo_state == 180){
-				sprite_index = spr_player_idle_esquerda;
+				sprite_index = spr_alice_idle_esquerda;
 			}
 		break;
 		
@@ -59,32 +59,32 @@ if(global.dialogo == false){
 		case "walk":
 			// Direita
 			if(dir == 0){
-				sprite_index = spr_player_walk_direita;
+				sprite_index = spr_alice_walk_direita;
 				Ultimo_state = 0;
 			}
 			// Esquerda
 			if(dir == 180){
-				sprite_index = spr_player_walk_esquerda;
+				sprite_index = spr_alice_walk_esquerda;
 				Ultimo_state = 180;
 			}
 			// Diagonal superior direita
 				if(dir == 45){
-					sprite_index = spr_player_walk_direita;
+					sprite_index = spr_alice_walk_direita;
 					Ultimo_state = 0;
 				}
 				// Diagonal superior esquerda
 				if(dir == 135){
-					sprite_index = spr_player_walk_esquerda;
+					sprite_index = spr_alice_walk_esquerda;
 					Ultimo_state = 180;
 				}
 				// Diagonal inferior direita
 				if(dir == 315){
-					sprite_index = spr_player_walk_direita;
+					sprite_index = spr_alice_walk_direita;
 					Ultimo_state = 0;
 				}
 				// Diagonal inferior esquerda
 				if(dir == 225){
-					sprite_index = spr_player_walk_esquerda;
+					sprite_index = spr_alice_walk_esquerda;
 					Ultimo_state = 180;
 				}
 		break;		
@@ -99,11 +99,11 @@ if(global.dialogo == false){
 		case "idle":
 			// Direita
 			if(Ultimo_state == 0){
-				sprite_index = spr_player_idle_direita;
+				sprite_index = spr_alice_idle_direita;
 			}
 			// Esquerda
 			if(Ultimo_state == 180){
-				sprite_index = spr_player_idle_esquerda;
+				sprite_index = spr_alice_idle_esquerda;
 			}
 		break;
 		
@@ -111,32 +111,32 @@ if(global.dialogo == false){
 		case "walk":
 			// Direita
 			if(dir == 0){
-				sprite_index = spr_player_idle_direita;
+				sprite_index = spr_alice_idle_direita;
 				Ultimo_state = 0;
 			}
 			// Esquerda
 			if(dir == 180){
-				sprite_index = spr_player_idle_esquerda;
+				sprite_index = spr_alice_idle_esquerda;
 				Ultimo_state = 180;
 			}
 			// Diagonal superior direita
 				if(dir == 45){
-					sprite_index = spr_player_idle_direita;
+					sprite_index = spr_alice_idle_direita;
 					Ultimo_state = 0;
 				}
 				// Diagonal superior esquerda
 				if(dir == 135){
-					sprite_index = spr_player_idle_esquerda;
+					sprite_index = spr_alice_idle_esquerda;
 					Ultimo_state = 180;
 				}
 				// Diagonal inferior direita
 				if(dir == 315){
-					sprite_index = spr_player_idle_direita;
+					sprite_index = spr_alice_idle_direita;
 					Ultimo_state = 0;
 				}
 				// Diagonal inferior esquerda
 				if(dir == 225){
-					sprite_index = spr_player_idle_esquerda;
+					sprite_index = spr_alice_idle_esquerda;
 					Ultimo_state = 180;
 				}
 		break;
