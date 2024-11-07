@@ -4,8 +4,8 @@ var guia = display_get_gui_height();
 var margemV = -15;
 var margemH = -80;
 
-var larguraObjeto =  sprite_get_width(spr_controle_conectado);
-var alturaObjeto = sprite_get_height(spr_controle_conectado);
+var larguraObjeto =  sprite_get_width(spr_transparente);
+var alturaObjeto = sprite_get_height(spr_transparente);
 
 var xx = guil - larguraObjeto - margemH;
 var yy = guia - alturaObjeto - margemV;

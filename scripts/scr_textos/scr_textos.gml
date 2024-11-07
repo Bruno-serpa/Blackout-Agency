@@ -15,6 +15,9 @@ function scr_textos(){
 		case "espelho":
 			ds_grid_add_text("Porque não consigo vê meu reflexo?", "Alice");
 			break;
+		case "pb":
+			ds_grid_add_text("Não tenho motivos para entrar aí", "Alice");
+			break;
 	}
 }
 

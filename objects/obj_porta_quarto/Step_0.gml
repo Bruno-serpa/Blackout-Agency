@@ -7,6 +7,7 @@ if (distance_to_object(obj_player) <= distancia_ativacao) {
     mostrar_icone = false;
 }
 if((distance_to_object(obj_player) <= distancia_ativacao) and confim){
-	global.quartop = true;
-	room_goto(Corredor);
+	global.VIEW_WIDTH =  228;
+	global.VIEW_HEIGHT = 128;
+	room_goto(Quarto);
 }

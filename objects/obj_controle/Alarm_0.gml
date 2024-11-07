@@ -1,4 +1,4 @@
-if (instance_exists(obj_controle_conectado)) 
+if (instance_exists(obj_transparente)) 
 {
-    instance_destroy(obj_controle_conectado);
+    instance_destroy(obj_transparente);
 }

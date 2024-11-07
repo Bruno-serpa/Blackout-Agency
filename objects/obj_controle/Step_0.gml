@@ -7,9 +7,9 @@ if (!global.controleConectado)
         if (gamepad_is_connected(i)) 
 		{
             global.controle = i;
-            if (!instance_exists(obj_controle_conectado)) 
+            if (!instance_exists(obj_transparente)) 
 			{
-                instance_create_layer(0, 0, "Controle", obj_controle_conectado);
+                instance_create_layer(0, 0, "Controle", obj_transparente);
                 alarm[0] = 120;
             }
             global.controleConectado = true;
@@ -17,9 +17,9 @@ if (!global.controleConectado)
         }
 		else
 		{
-			if (instance_exists(obj_controle_conectado)) 
+			if (instance_exists(obj_transparente)) 
 			{
-			    instance_destroy(obj_controle_conectado);
+			    instance_destroy(obj_transparente);
 			}
 		}
     }

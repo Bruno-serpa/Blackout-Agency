@@ -1,4 +1,4 @@
-nome = "Ver Lista";
+nome = "Banheiro";
 distancia_ativacao = 1;
 mostrar_icone = false;
-global.pegoulista = false;
+

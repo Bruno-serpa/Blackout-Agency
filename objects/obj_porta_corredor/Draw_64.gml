@@ -10,9 +10,9 @@ if (mostrar_icone) {
 
     // Desenha o ícone
 	if(global.controleConectado){
-		draw_sprite_ext(spr_xbox_a, -1, centro_x - ((sprite_get_width(spr_xbox_a) / 14)) + 70, centro_y - 92, escala, escala, 0, c_white, 1);
+		draw_sprite_ext(spr_xbox_x, -1, centro_x - ((sprite_get_width(spr_xbox_x) / 14)) + 70, centro_y - 92, escala, escala, 0, c_white, 1);
 	} else{
-		draw_sprite_ext(spr_teclado_e, -1, centro_x - ((sprite_get_width(spr_xbox_a) / 14)) + 70, centro_y - 92, escala, escala, 0, c_white, 1);
+		draw_sprite_ext(spr_teclado_e, -1, centro_x - ((sprite_get_width(spr_teclado_e) / 14)) + 70, centro_y - 92, escala, escala, 0, c_white, 1);
 	}
 	// Desenha o texto
 	draw_set_font(ft_interacoes);
