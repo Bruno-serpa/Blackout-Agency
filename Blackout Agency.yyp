@@ -1,6 +1,6 @@
 {
   "$GMProject":"",
-  "%Name":"jogo 01",
+  "%Name":"Blackout Agency",
   "AudioGroups":[
     {"$GMAudioGroup":"","%Name":"audiogroup_default","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
   ],
@@ -45,7 +45,7 @@
   "MetaData":{
     "IDEVersion":"2024.8.1.171",
   },
-  "name":"jogo 01",
+  "name":"Blackout Agency",
   "resources":[
     {"id":{"name":"ft_interacoes","path":"fonts/ft_interacoes/ft_interacoes.yy",},},
     {"id":{"name":"ft_menu","path":"fonts/ft_menu/ft_menu.yy",},},
@@ -61,6 +61,9 @@
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"obj_porta","path":"objects/obj_porta/obj_porta.yy",},},
     {"id":{"name":"quadro","path":"objects/quadro/quadro.yy",},},
+    {"id":{"name":"AreaDeServico","path":"rooms/AreaDeServico/AreaDeServico.yy",},},
+    {"id":{"name":"Banheiro","path":"rooms/Banheiro/Banheiro.yy",},},
+    {"id":{"name":"Cozinha","path":"rooms/Cozinha/Cozinha.yy",},},
     {"id":{"name":"Entrada","path":"rooms/Entrada/Entrada.yy",},},
     {"id":{"name":"Menu","path":"rooms/Menu/Menu.yy",},},
     {"id":{"name":"Quarto","path":"rooms/Quarto/Quarto.yy",},},
@@ -110,6 +113,9 @@
     {"roomId":{"name":"Menu","path":"rooms/Menu/Menu.yy",},},
     {"roomId":{"name":"Quarto","path":"rooms/Quarto/Quarto.yy",},},
     {"roomId":{"name":"sala","path":"rooms/sala/sala.yy",},},
+    {"roomId":{"name":"Cozinha","path":"rooms/Cozinha/Cozinha.yy",},},
+    {"roomId":{"name":"Banheiro","path":"rooms/Banheiro/Banheiro.yy",},},
+    {"roomId":{"name":"AreaDeServico","path":"rooms/AreaDeServico/AreaDeServico.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
