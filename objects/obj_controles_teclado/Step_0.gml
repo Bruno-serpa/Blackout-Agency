@@ -2,7 +2,7 @@ var confim = (keyboard_check(ord("E"))) or (gamepad_button_check_pressed(global.
 
 // Começar o jogo
 if(confim and global.origem == 0){
-	room_goto(Quarto);
+	room_goto(inicio_Jogo);
 }
 
 // Voltar para o menu
