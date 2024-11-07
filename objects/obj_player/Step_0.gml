@@ -28,6 +28,14 @@ if(direita xor esquerda)
 		}
 		velH = 0;
 	}
+	
+	// Add Colisão na horizontal sem efeito de camera
+	if(place_meeting(x+velH, y, obj_colisao_sem_mod_camera)){
+		while(!place_meeting(x+sign(velH), y, obj_colisao_sem_mod_camera)){
+			x = x + sign(velH);
+		}
+		velH = 0;
+	}
 		
 	// Fazendo o personagem se mover
 	x+= velH;

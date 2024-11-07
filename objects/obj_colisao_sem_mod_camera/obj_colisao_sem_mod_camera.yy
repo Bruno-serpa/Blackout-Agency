@@ -1,16 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_player",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_colisao_sem_mod_camera",
+  "eventList":[],
   "managed":true,
-  "name":"obj_player",
+  "name":"obj_colisao_sem_mod_camera",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objetos",
-    "path":"folders/Objetos.yy",
+    "name":"Cena",
+    "path":"folders/Objetos/Cena.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_alice_idle_esquerda",
-    "path":"sprites/spr_alice_idle_esquerda/spr_alice_idle_esquerda.yy",
+    "name":"spr_colisao_mod_camera",
+    "path":"sprites/spr_colisao_mod_camera/spr_colisao_mod_camera.yy",
   },
   "spriteMaskId":null,
   "visible":true,

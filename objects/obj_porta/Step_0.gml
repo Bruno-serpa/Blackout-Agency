@@ -7,5 +7,5 @@ if (distance_to_object(obj_player) <= distancia_ativacao) {
     mostrar_icone = false;
 }
 if((distance_to_object(obj_player) <= distancia_ativacao) and confim){
-	room_goto(sala);
+	room_goto(Banheiro);
 }
