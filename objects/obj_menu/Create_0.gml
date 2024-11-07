@@ -7,3 +7,6 @@ menu = ["Novo", "Controles", "Sair"];
 select = -1; // Começar com nenhuma seleção
 
 mouseSobreItem = false;
+
+// Colocando o jogo em fullscreen
+window_set_fullscreen(true);
