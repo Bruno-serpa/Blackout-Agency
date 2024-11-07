@@ -28,7 +28,7 @@ switch (select) {
     // Novo
     case 0:
         if (click) {
-            room_goto(Quarto);
+            room_goto(Controles);
         }
         break;
     // Carregar
