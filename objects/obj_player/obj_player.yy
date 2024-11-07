@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_alice_idle_esquerda",
-    "path":"sprites/spr_alice_idle_esquerda/spr_alice_idle_esquerda.yy",
+    "name":"spr_alice_idle_direita",
+    "path":"sprites/spr_alice_idle_direita/spr_alice_idle_direita.yy",
   },
   "spriteMaskId":null,
   "visible":true,
