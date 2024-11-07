@@ -1,7 +1,7 @@
 //------------------------------------------- Menu --------------------------------------------------
 
 // Itens do menu
-menu = ["Novo", "Carregar", "Controles", "Sair"];
+menu = ["Novo", "Controles", "Sair"];
 
 // Seleção do menu
 select = -1; // Começar com nenhuma seleção

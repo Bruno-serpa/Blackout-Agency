@@ -7,7 +7,7 @@ gamepad_set_axis_deadzone(global.controle, zonaMorta);
 // quando não está pressionando
 var cima = (keyboard_check_pressed(vk_up)) or (gamepad_button_check_pressed(global.controle, gp_padu)) or (keyboard_check_pressed(ord("W")));
 var baixo = (keyboard_check_pressed(vk_down)) or (gamepad_button_check_pressed(global.controle, gp_padd)) or (keyboard_check_pressed(ord("S")));
-var click = (keyboard_check_pressed(vk_enter)) or (mouse_check_button_pressed(mb_left)) or (gamepad_button_check_pressed(global.controle, gp_face1));
+var click = (keyboard_check_pressed(vk_enter)) or (mouse_check_button_pressed(mb_left)) or (gamepad_button_check_pressed(global.controle, gp_face1)) or (keyboard_check_pressed(ord("E")));
 
 // Lógica para navegação usando teclado
 if (cima && select > 0) { // Permite navegação para cima
@@ -28,23 +28,20 @@ switch (select) {
     // Novo
     case 0:
         if (click) {
+			global.origem = 0;
             room_goto(Controles);
         }
         break;
-    // Carregar
+    // Controles
     case 1:
         if (click) {
-            // Lógica de carregar
-        }
-        break;
-    // Opções
-    case 2:
-        if (click) {
-            // Lógica de opções
+            // Lógica de controles
+			global.origem = 1;
+			room_goto(Controles);
         }
         break;
     // Sair do jogo
-    case 3:
+    case 2:
         if (click) {
             game_end();
         }
