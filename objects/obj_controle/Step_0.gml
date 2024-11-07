@@ -29,3 +29,7 @@ if (!global.controleConectado)
         global.controleConectado = false;
     }
 }
+
+if(instance_exists(obj_dialogo)){
+	global.dialogo = true;
+}

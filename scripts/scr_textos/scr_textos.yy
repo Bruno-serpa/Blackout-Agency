@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"macros",
+  "%Name":"scr_textos",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"macros",
+  "name":"scr_textos",
   "parent":{
     "name":"Scripts",
     "path":"folders/Scripts.yy",
