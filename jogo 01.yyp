@@ -62,7 +62,6 @@
     {"id":{"name":"Quarto","path":"rooms/Quarto/Quarto.yy",},},
     {"id":{"name":"sala","path":"rooms/sala/sala.yy",},},
     {"id":{"name":"macros","path":"scripts/macros/macros.yy",},},
-    {"id":{"name":"Script2","path":"scripts/Script2/Script2.yy",},},
     {"id":{"name":"spr_borda_portas","path":"sprites/spr_borda_portas/spr_borda_portas.yy",},},
     {"id":{"name":"spr_colisao","path":"sprites/spr_colisao/spr_colisao.yy",},},
     {"id":{"name":"spr_comidas","path":"sprites/spr_comidas/spr_comidas.yy",},},
