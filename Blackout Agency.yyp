@@ -80,7 +80,6 @@
     {"id":{"name":"obj_porta_corredor","path":"objects/obj_porta_corredor/obj_porta_corredor.yy",},},
     {"id":{"name":"obj_porta_quarto","path":"objects/obj_porta_quarto/obj_porta_quarto.yy",},},
     {"id":{"name":"obj_porta_saida","path":"objects/obj_porta_saida/obj_porta_saida.yy",},},
-    {"id":{"name":"obj_porta_sala","path":"objects/obj_porta_sala/obj_porta_sala.yy",},},
     {"id":{"name":"obj_recomendado","path":"objects/obj_recomendado/obj_recomendado.yy",},},
     {"id":{"name":"obj_tipo_controle","path":"objects/obj_tipo_controle/obj_tipo_controle.yy",},},
     {"id":{"name":"obj_transparente","path":"objects/obj_transparente/obj_transparente.yy",},},

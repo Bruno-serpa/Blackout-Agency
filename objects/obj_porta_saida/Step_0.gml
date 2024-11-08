@@ -7,8 +7,8 @@ if(global.chavesala == true){
 	    mostrar_icone = false;
 	}
 	if((distance_to_object(obj_player) <= distancia_ativacao) and confim){
-		global.VIEW_WIDTH =  230;
-		global.VIEW_HEIGHT = 128;
+		global.VIEW_WIDTH =  1366;
+		global.VIEW_HEIGHT = 768;
 		global.baneirop = true;
 		global.ult_sala = 8;
 		room_goto(Menu);
