@@ -16,7 +16,7 @@ if (mostrar_icone) {
 	}
 	// Desenha o texto
 	draw_set_font(ft_interacoes);
-	draw_text_transformed(centro_x - ((string_width(nome) / 2)), centro_y + 10, nome, escala, escala, 0);
+	draw_text_transformed(centro_x - ((string_width(nome) / 2)) + 18, centro_y + 10, nome, escala, escala, 0);
 
 	
 	// Resetenado a fonte

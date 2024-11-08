@@ -1,4 +1,4 @@
-var confim = (keyboard_check(ord("F"))) or (gamepad_button_check_pressed(global.controle, gp_face1));
+var confim = (keyboard_check_released(ord("F"))) or (gamepad_button_check_pressed(global.controle, gp_face1));
 
 if(inicializar == false){
 	scr_textos();

@@ -5,3 +5,5 @@ global.VIEW_HEIGHT = 128;
 #macro VIEW_SPD 0.1
 global.quartop = false;
 global.baneirop = false;
+global.morreu = 0;
+global.ult_sala = 0;

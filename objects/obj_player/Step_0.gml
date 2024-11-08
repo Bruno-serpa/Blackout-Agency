@@ -7,7 +7,7 @@ var cima = (keyboard_check(vk_up)) or (gamepad_button_check(global.controle, gp_
 var baixo = (keyboard_check(vk_down)) or (gamepad_button_check(global.controle, gp_padd)) or (keyboard_check(ord("S"))) or (gamepad_axis_value(global.controle, gp_axislv) > zonaMorta);
 var direita = (keyboard_check(vk_right)) or (gamepad_button_check(global.controle, gp_padr)) or (keyboard_check(ord("D"))) or (gamepad_axis_value(global.controle, gp_axislh) > zonaMorta);
 var esquerda = (keyboard_check(vk_left)) or (gamepad_button_check(global.controle, gp_padl)) or (keyboard_check(ord("A"))) or (gamepad_axis_value(global.controle, gp_axislh) < -zonaMorta);
-var confim = (keyboard_check(ord("E"))) or (gamepad_button_check_pressed(global.controle, gp_face3));
+var confim = (keyboard_check_released(ord("E"))) or (gamepad_button_check_pressed(global.controle, gp_face3));
 
 // ------------------------------------------- Movimentação -------------------------------------------
 	
@@ -157,7 +157,7 @@ if(global.dialogo == false){
 
 // ------------------------------------------- Dialogo -------------------------------------------
 
-if (distance_to_object(obj_item) <= 10){
+if (distance_to_object(obj_item) <= 3){
 	if(confim){
 		var _npc = instance_nearest(x, y, obj_item);
 		var _dialogo = instance_create_layer(x, y, "Dialogo", obj_dialogo);
