@@ -7,15 +7,8 @@ if (distance_to_object(obj_player) <= distancia_ativacao) {
     mostrar_icone = false;
 }
 if((distance_to_object(obj_player) <= distancia_ativacao) and confim){
-	global.quartop = true;
-	if(global.ult_sala == 1){
-		global.ult_sala_qb = 0;
-	}
-	if(global.ult_sala == 2){
-		global.ult_sala_qb = 2;
-	}
-	if(global.ult_sala == 8){
-		global.ult_sala_qb = 6;
-	}
-	room_goto(Corredor);
+	global.VIEW_WIDTH =  228;
+	global.VIEW_HEIGHT = 128;
+	global.ult_sala = 8;
+	room_goto(Sala);
 }

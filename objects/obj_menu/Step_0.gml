@@ -29,6 +29,8 @@ switch (select) {
     case 0:
         if (click) {
 			global.origem = 0;
+			audio_stop_all();
+			audio_play_sound(aud_geral, 1, true);
             room_goto(Controles);
         }
         break;
